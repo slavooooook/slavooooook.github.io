@@ -111,7 +111,7 @@ function setup() {
 
 // Main function
 function draw() {
-    background(BLACK_COLOR);
+    background(WHITE_COLOR);
     translate(WIDTH / 2, HEIGHT / 2);
     strokeWeight(STROKE_WEIGHT);
 
@@ -123,7 +123,7 @@ function draw() {
     
 
     // Draw figure
-    stroke(WHITE_COLOR);
+    stroke(BLACK_COLOR);
     
     for(var i = 0; i < points.length; i++) {
         let vector = points[i];
